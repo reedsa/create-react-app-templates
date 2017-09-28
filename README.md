@@ -22,7 +22,7 @@ create-react-app <app-name> --scripts-version @reedsa/react-scripts --internal-t
 >
 > Create a "sweet-redux-app" project alongside the create-react-app-templates project with the "accelerator" template using this command:
 >
-> ```
+```
 create-react-app excellent-redux-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/accelerator
 ```
 
