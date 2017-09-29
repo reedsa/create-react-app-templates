@@ -1,8 +1,7 @@
 {
   "name": "@reedsa/accelerator-template",
-  "version": "0.1.0",
-  "description":
-    "Accelerator template for create-react-app, a headstart for your next React + Redux application",
+  "version": "1.0.0",
+  "description": "Accelerator template for create-react-app, a headstart for your next React + Redux application",
   "repository": "reedsa/create-react-app-templates",
   "license": "MIT",
   "bugs": {
