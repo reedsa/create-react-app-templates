@@ -19,7 +19,7 @@ create-react-app <app-name> --scripts-version @reedsa/react-scripts --internal-t
 > Create a "sweet-redux-app" project alongside the create-react-app-templates project with the "accelerator" template using this command:
 >
 ```
-create-react-app excellent-redux-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/accelerator
+create-react-app excellent-redux-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/packages/accelerator
 ```
 
 ### Templates
@@ -35,7 +35,7 @@ This is the base template from create-react-app that any new templates should us
 Based on the original [accelerator](https://github.com/marcgarreau/accelerator) starter kit for a React and Redux application. Special thanks to all the [contributors](https://github.com/marcgarreau/accelerator/graphs/contributors) for making this possible.
 
 ```
-create-react-app awesome-react-accelerator-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/accelerator
+create-react-app awesome-react-accelerator-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/packages/accelerator
 ```
 
 ##### Sass
@@ -43,7 +43,7 @@ create-react-app awesome-react-accelerator-app --scripts-version @reedsa/react-s
 Uses the [recommended approach](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc) for integrating with Sass, a CSS Preprocessor. The node-sass-chokidar package addresses some issues with node-sass.
 
 ```
-create-react-app sweet-react-sass-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/sass
+create-react-app sweet-react-sass-app --scripts-version @reedsa/react-scripts --internal-testing-template ./create-react-app-templates/packages/sass
 ```
 
 ##### More Templates
