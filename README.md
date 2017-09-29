@@ -2,10 +2,6 @@
 
 Preconfigured templates for your next create-react-app project.
 
-TODO:
-* Illustrate template features using a table with checkmarks?
-* Create gh-pages site for this?
-
 ### Getting Started
 
 1. Fork or Clone this repository.
