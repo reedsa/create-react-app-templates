@@ -6,7 +6,12 @@ import { Card, CardText, CardTitle } from 'react-md/lib/Cards';
 
 import './Counter.css';
 
-const Counter = ({ count, handleChange, handleIncrement, handleDecrement }) => (
+const Counter = ({
+  count = 0,
+  handleChange,
+  handleIncrement,
+  handleDecrement,
+}) => (
   <Card className="Counter-card">
     <CardTitle
       title="Basic Counter"
@@ -29,7 +34,7 @@ const Counter = ({ count, handleChange, handleIncrement, handleDecrement }) => (
 );
 
 Counter.propTypes = {
-  count: PropTypes.number.isRequired,
+  count: PropTypes.number,
   handleDecrement: PropTypes.func.isRequired,
   handleIncrement: PropTypes.func.isRequired,
 };

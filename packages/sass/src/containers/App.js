@@ -13,7 +13,7 @@ import logo from '../assets/images/logo.svg';
 import './App.css';
 import 'material-design-icons/iconfont/material-icons.css';
 
-class App extends Component {
+export class App extends Component {
   intro() {
     return (
       <Card className="App-intro">

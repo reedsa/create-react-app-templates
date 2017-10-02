@@ -2,6 +2,7 @@
   "dependencies": {
     "@reedsa/react-scripts": "0.0.3",
     "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
     "eslint": "^4.7.2",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-babel": "^4.1.1",
