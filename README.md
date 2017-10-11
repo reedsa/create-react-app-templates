@@ -50,6 +50,14 @@ Based on the original [accelerator](https://github.com/marcgarreau/accelerator) 
 create-react-app awesome-react-accelerator-app --scripts-version @reedsa/react-scripts --internal-testing-template @reedsa/accelerator-template
 ```
 
+##### Redux
+
+Great starting point for your next React and Redux application. Includes a few patterns such as asynchronous requests, logging in with a username and password. Requires a separate server with the proper API endpoints to respond to the requests.
+
+```
+create-react-app incredible-react-redux-app --scripts-version @reedsa/react-scripts --internal-testing-template @reedsa/redux-template
+```
+
 ##### Sass
 
 Uses the [recommended approach](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc) for integrating with Sass, a CSS Preprocessor. The node-sass-chokidar package addresses some issues with node-sass.
@@ -67,5 +75,6 @@ Here are a few others that might be useful:
 * Flow
 * Material Components Web
 * Storybook
+* CircleCI configuration for automated deployments
 * Deployment with Heroku
 * Deployment with AWS
