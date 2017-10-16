@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@reedsa/react-scripts": "0.0.3",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "eslint": "^4.7.2",
@@ -20,7 +19,6 @@
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "react-router-redux": "^5.0.0-alpha.6",
-    "react-scripts": "1.0.14",
     "react-test-renderer": "^16.0.0",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
